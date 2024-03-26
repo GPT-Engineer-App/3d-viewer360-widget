@@ -22,7 +22,8 @@ const Index = () => {
         ui_stop: 0,
       });
 
-      viewer.init("https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHwzZCUyMG1vZGVsJTIwdXJsfGVufDB8fHx8MTcxMTQ4Njc1Mnww&ixlib=rb-4.0.3&q=80&w=1080");
+      // Load a 3D model of an office desk with open laptop
+      viewer.init("https://sketchfab.com/models/8b7fdbdb8852419f90a95c0f35c1a026");
     };
 
     return () => {
